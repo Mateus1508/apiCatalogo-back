@@ -119,13 +119,13 @@ namespace apiCatalogo.Migrations
 
             migrationBuilder.UpdateData(
                 table: "Categoria",
-                keyColumn: "ImagemUrl",
+                keyColumn: "ImageUrl",
                 keyValue: null,
                 column: "ImageUrl",
                 value: "");
 
             migrationBuilder.AlterColumn<string>(
-                name: "ImagemUrl",
+                name: "ImageUrl",
                 table: "Categoria",
                 type: "varchar(300)",
                 maxLength: 300,
